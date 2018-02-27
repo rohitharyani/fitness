@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeCare</string>
+
+    <!-- Login Page -->
+    <string name="loginButton">LOGIN</string>
+    <string name="loginSignUpButton">SIGN UP?</string>
+    <string name="loginEmail">Email</string>
+    <string name="loginPassword">Password</string>
+
+    <!-- Sign up Page -->
+    <string name="signUpEmail">Email</string>
+    <string name="signUpName">Name</string>
+    <string name="signUpPhone">Phone</string>
+    <string name="signUpPassword">Password</string>
+    <string name="signUpConfirmPassword">Confirm Password</string>
+    <string name="signUpButton">SIGN UP</string>
+</resources>
