@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
-
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <LinearLayout
+
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/login_background"
-                android:orientation="vertical"
-                android:padding="15dip"
-                android:gravity="bottom" >
-
+                android:layout_weight="1">
+                <com.jgabrielfreitas.core.BlurImageView
+                    android:id="@+id/loginBackgroundImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/login2"
+                    android:scaleType="fitXY"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="bottom"
+                    android:padding="15dip">
                 <EditText
                     android:id="@+id/loginEmailEditText"
                     android:layout_width="match_parent"
@@ -34,7 +36,7 @@
                     android:inputType="textEmailAddress"
                     android:padding="10dip"
                     android:drawableLeft="@drawable/email"
-                    android:drawablePadding="10dip"/>
+                    android:drawablePadding="10dip" />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dip"/>
@@ -74,14 +76,15 @@
                         android:textStyle="bold"
                         android:padding="10dip"
                         android:layout_marginTop="10dip" />
-
-            </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="2.5"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@android:color/white">
 
                 <LinearLayout
                     android:id="@+id/loginLinearLayout"
@@ -89,27 +92,32 @@
                     android:layout_height="match_parent"
                     android:padding="15dip"
                     android:orientation="horizontal"
-                    android:layout_weight="1">
-                <ImageButton
-                    android:id="@+id/loginGoogle"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@mipmap/login_google"
-                    android:background="@color/blur_white" />
+                    android:gravity="center">
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/loginGoogleButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/white" />
+
                     <View
                         android:layout_width="0.5dip"
                         android:layout_height="match_parent"
                         android:background="@android:color/black"
-                        android:layout_margin="5dip"/>
-                <ImageButton
-                    android:id="@+id/loginFacebook"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@mipmap/login_facebook"
-                    android:background="@color/blur_white" />
-            </LinearLayout>
+                        android:layout_margin="10dip"/>
+
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/loginFacebookButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20sp"
+                        android:paddingBottom="20sp" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -127,6 +135,5 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </RelativeLayout>
 
 </ScrollView>
