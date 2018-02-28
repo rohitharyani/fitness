@@ -6,6 +6,9 @@
     <string name="loginSignUpButton">SIGN UP?</string>
     <string name="loginEmail">Email</string>
     <string name="loginPassword">Password</string>
+    <string name="facebook_app_id">299185540609996</string>
+    <string name="fb_login_protocol_scheme">fb299185540609996</string>
+
 
     <!-- Sign up Page -->
     <string name="signUpEmail">Email</string>

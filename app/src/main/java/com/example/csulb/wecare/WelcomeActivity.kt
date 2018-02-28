@@ -1,9 +1,7 @@
-package com.example.rohit.wecare
+package com.example.csulb.wecare
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.content.Intent
-
 
 
 class WelcomeActivity : AppCompatActivity() {

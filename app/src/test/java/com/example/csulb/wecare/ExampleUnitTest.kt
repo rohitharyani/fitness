@@ -1,4 +1,4 @@
-package com.example.rohit.wecare
+package com.example.csulb.wecare
 
 import org.junit.Test
 
