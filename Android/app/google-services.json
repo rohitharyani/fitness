@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "797274870979",
+    "firebase_url": "https://wecare-85aab.firebaseio.com",
+    "project_id": "wecare-85aab",
+    "storage_bucket": "wecare-85aab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797274870979:android:3b9411e553876426",
+        "android_client_info": {
+          "package_name": "com.example.rohit.wecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797274870979-cg9du5gfrie32p3932df2dhpnpng9h24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohit.wecare",
+            "certificate_hash": "89ec886028e1145a8093415d55c8402336768c30"
+          }
+        },
+        {
+          "client_id": "797274870979-ab4ubklekocd6o27qsmnfp3n4o6h4vec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvCNtQXYX5HebTEazYuXTSGqFYqE6nSzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797274870979-tc571ci11govo7g0gmmfv37r8gmq99pn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.CSULB.WeCare"
+              }
+            },
+            {
+              "client_id": "797274870979-ab4ubklekocd6o27qsmnfp3n4o6h4vec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797274870979:android:71186f43f2727d65",
+        "android_client_info": {
+          "package_name": "com.example.csulb.wecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797274870979-6btehbhu0te43bje0nadq5akj3i9t179.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.csulb.wecare",
+            "certificate_hash": "89ec886028e1145a8093415d55c8402336768c30"
+          }
+        },
+        {
+          "client_id": "797274870979-ab4ubklekocd6o27qsmnfp3n4o6h4vec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvCNtQXYX5HebTEazYuXTSGqFYqE6nSzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797274870979-tc571ci11govo7g0gmmfv37r8gmq99pn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.CSULB.WeCare"
+              }
+            },
+            {
+              "client_id": "797274870979-ab4ubklekocd6o27qsmnfp3n4o6h4vec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
