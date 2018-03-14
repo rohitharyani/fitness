@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WeCare.iml" filepath="$PROJECT_DIR$/WeCare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
+      <module fileurl="file://I:\College\Semester_2\CECS_453_Mobile_Application_Dev\Project\Dev\WeCare\Android\WeCare.iml" filepath="I:\College\Semester_2\CECS_453_Mobile_Application_Dev\Project\Dev\WeCare\Android\WeCare.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
