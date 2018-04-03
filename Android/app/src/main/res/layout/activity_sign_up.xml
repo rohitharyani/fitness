@@ -18,7 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@mipmap/ic_launcher"
-                android:layout_weight="3"/>
+                android:layout_weight="2"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -36,7 +36,7 @@
                 android:textColorHint="@android:color/darker_gray"
                 android:inputType="textPersonName"
                 android:padding="10dip"
-                android:drawableLeft="@drawable/name"
+                android:drawableStart="@drawable/name"
                 android:drawablePadding="10dip"
 
                 android:layout_marginBottom="10dip"/>
@@ -47,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dip"
                     android:background="@color/lightGray"
-                    android:drawableLeft="@drawable/email"
+                    android:drawableStart="@drawable/email"
                     android:drawablePadding="10dip"
                     android:hint="@string/signUpEmail"
                     android:inputType="textEmailAddress"
@@ -68,7 +68,7 @@
                 android:textSize="20sp"
                 android:inputType="textEmailAddress"
                 android:padding="10dip"
-                android:drawableLeft="@drawable/phone"
+                android:drawableStart="@drawable/phone"
                 android:drawablePadding="10dip"/>
 
                 <EditText
@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dip"
                     android:background="@color/lightGray"
-                    android:drawableLeft="@drawable/password"
+                    android:drawableStart="@drawable/password"
                     android:drawablePadding="10dip"
                     android:hint="@string/signUpPassword"
                     android:inputType="numberPassword"
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dip"
                     android:background="@color/lightGray"
-                    android:drawableLeft="@drawable/confirm_password"
+                    android:drawableStart="@drawable/confirm_password"
                     android:drawablePadding="10dip"
                     android:hint="@string/signUpConfirmPassword"
                     android:textColorHint="@android:color/darker_gray"
@@ -112,14 +112,11 @@
                     android:textColor="@android:color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-
             </LinearLayout>
             <ProgressBar
-                android:id="@+id/progressBar"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center|bottom"
-                android:layout_marginBottom="20dp"
-                android:visibility="gone" />
+                android:id="@+id/signUpProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
         </LinearLayout>
  </RelativeLayout>

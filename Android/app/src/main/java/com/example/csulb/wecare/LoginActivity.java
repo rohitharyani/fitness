@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
@@ -41,7 +42,6 @@ import com.jgabrielfreitas.core.BlurImageView;
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
 
-    private BlurImageView mLoginBackground;
     private Button mLoginButton;
     private Button mSignUpButton;
     private TextView mForgotLoginTextView;
@@ -73,8 +73,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return;
         }
 
-        mLoginBackground = (BlurImageView)findViewById(R.id.loginBackgroundImageView);
-        mLoginBackground.setBlur(1);
 
         auth = FirebaseAuth.getInstance();
         inputEmail = (EditText) findViewById(R.id.loginEmailEditText);
